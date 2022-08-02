@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checks if the SearchUsers component renders correctly 1`] = `
+<div
+  className="searchContainer"
+>
+  <div
+    className="search"
+  >
+    <div
+      className="flexContainer"
+    >
+      <h1>
+        VCS Search App
+      </h1>
+    </div>
+    <div
+      className=" flexContainer searchFormContainer"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+        <div
+          className="flexContainer"
+        >
+          <button
+            type="submit"
+          >
+            SEARCH
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      className="flexContainer results"
+    >
+      <h2>
+        Please enter a username you'd like to search for
+      </h2>
+    </div>
+  </div>
+</div>
+`;

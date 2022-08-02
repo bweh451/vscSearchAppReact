@@ -1,0 +1,332 @@
+/* Styles all elements on the web page */
+
+
+/* Imported the following fonts */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;400;700&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+/* Changes the font of all elements within the body */
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Styles all elements with the following class */
+.flexContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles all elements with the following class */
+.searchContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(21, 21, 21);
+}
+
+/* Styles all elements with the following class */
+.search{
+  background-image: linear-gradient(45deg, #00B600, #037dae, #E40000, #E46700 );
+  width: 75%;
+  height: 100%;
+  color: rgb(21, 21, 21);
+}
+
+/* Styles all h1 elements within the following class */
+.search h1{
+  padding: 70px 0;
+  text-transform: uppercase;
+  font-size: 550%;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+/* Styles all h2 elements within the following class */
+.search h2{
+  padding-top: 50px;
+}
+
+/* Styles all elements with the following class */
+.results{
+  padding-top: 100px;
+  width: 100%;
+}
+
+/* Styles all h2 and h4 elements within the following class */
+.results h2, h4{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Styles all elements with the following class */
+.searchFormContainer{
+  padding-top: 50px;
+}
+
+/* Styles all form elements */
+form{
+  width: 50%;
+}
+
+/* Styles all input elements within form elements */
+form input{
+  display: block;
+  height: 100%;
+  width: 100%;
+  border: none;
+  margin: 30px 0;
+  padding: 15px 10px;
+  border-radius: 8px;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+/* Styles all input elements within form elements when focussed on*/
+form input:focus{
+  outline: none;
+}
+
+/* Styles all button elements within form elements */
+form button{
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 150%;
+  font-weight: bold;
+  background-color: #037dae;
+}
+
+/* Styles all button elements within form elements when hovered over*/
+form button:hover{
+  background-color: #E46700;
+}
+
+/* Styles all elements with the following class */
+.userLinks{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Styles all elements with the following class */
+.link{
+  background-color: rgb(21, 21, 21);;
+  color: white;
+  padding: 20px 20px;
+  border-radius: 36px;
+  text-align: center;
+}
+
+/* Styles all h2 elements within the following class */
+.link h2{
+  padding: 0;
+}
+
+/* Styles all p elements within the following class */
+.link p{
+  font-size: 120%;
+}
+
+/* Styles all elements with the following class */
+.userDetailsBtn{
+  border: none;
+  border-radius: 8px;
+  color: black;
+  font-weight: bold;
+  background-color: #00B600;
+  padding: 5px 10px;
+  font-size: 110%;
+}
+
+/* Styles all elements with the following class when hovered over*/
+.userDetailsBtn:hover{
+  background-color: #E40000;
+}
+
+/* Styles all elements with the following class */
+.userDetails{
+  background-color: rgb(21, 21, 21);
+}
+
+/* Styles all h1 elements within the following class */
+.userDetails h1{
+  padding: 50px 0 100px 0;
+  font-size: 550%;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Styles the element with the following id */
+#homeBtn{
+  margin: 50px 0;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 120%;
+  background-color: #037dae;
+}
+
+/* Styles the element with the following id when hovered over */
+#homeBtn:hover{
+  background-color: #00B600;
+}
+
+/* Styles all h3 elements within the following class */
+.userProfile h3{
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+/* Styles all elements with the following class */
+.userRepoDetails{
+  padding-top: 100px;
+}
+
+/* Styles all h3 elements within the following class */
+.userRepoDetails h3{
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+/* Styles all elements with the following class */
+.details{
+  background-image: linear-gradient(45deg, #E46700, #E40000, #037dae, #00B600 );
+  color: rgb(21, 21, 21);
+  width: 75%;
+}
+
+/* Styles all elements with the following class */
+.repoDetails{
+  width: 75%;
+  height: 100%;
+}
+
+/* Styles all elements with the following class */
+.profile{
+  background-color: rgb(21, 21, 21);
+  color: white;
+  width: 50%;
+  border-radius: 12px;
+}
+
+/* Styles all img elements within the following class */
+.profile img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+/* Styles all elements with the following class */
+.profileItem{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid white;
+}
+
+/* Styles all p elements within the following class */
+.profileItem p{
+  margin: 0;
+  padding: 10px 15px;
+  font-size: 120%;
+}
+
+/* Styles all a elements within the following class */
+.profileLink a{
+  color:#00B600;
+}
+
+/* Styles all a elements within the following class when hovered over */
+.profileLink a:hover{
+  color:#037dae;
+}
+
+/* Styles all elements with the following class */
+.accordion-button {
+  background-color:  rgb(28, 28, 28) !important;
+  color: white !important;
+  font-size: 60% !important;
+  font-weight: bold;
+}
+
+/* Styles all elements with the following class when foccused on*/
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+/* Styles the elements within the accordion-body class, that is found within the accordion collapse class */
+.accordion-collapse .accordion-body{
+  font-size: 110%;
+}
+
+/* Styles all elements with the following class */
+.loader{
+  padding-top: 50px;
+}
+
+/* Styles all elements with the following class */
+.userDetailsLoadingContainer{
+  height: 100vh;
+  width: 100vw;
+  background-color:  rgb(28, 28, 28);
+}
+
+/* Styles all elements with the following class */
+.userDetailsLoading{
+  height: 100%;
+  width: 75%;
+  background-image: linear-gradient(45deg, #E46700, #E40000, #037dae, #00B600 );
+}
+
+/* Styles all h1 elements within the following class */
+.userDetailsLoading h1{
+  font-size: 300%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Styles all elements with the following class */
+.userDetailsLoader{
+  margin-top: 50px;
+}
+
+/* Styles all elements with the following class */
+.userDetailsErrorsContainer{
+  height: 100vh;
+  width: 100vw;
+  background-color:  rgb(28, 28, 28);
+}
+
+/* Styles all elements with the following class */
+.userDetailsErrors{
+  height: 100%;
+  width: 75%;
+  background-image: linear-gradient(45deg, #E46700, #E40000, #037dae, #00B600 );
+}
+
+/* Styles all h1 elements within the following class */
+.userDetailsErrors h1{
+  font-size: 300%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Styles all h3 elements within the following class */
+.userDetailsErrors h3{
+  font-size: 150%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Styles all elements with the following class */
+.noUser{
+  padding-top: 40px;
+}
